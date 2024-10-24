@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="46">
+	<defs>
+		<style>
+			svg{
+				margin:0 auto;
+				padding:0;
+				}
+			.cls-1{fill:none;}
+			.cls-2{fill:#333;}
+			.cls-1,.cls-2{stroke:#333;stroke-width:1px;}
+		</style>
+	</defs>
+<title>menu</title>
+<rect class="cls-1" x="3" y="3" width="20" height="10" >
+<!-- 
+	<animateTransform
+		id="menu_rect01" 
+		attributeType="XML"
+		attributeName="transform"
+		type="translate"
+		dur="0.5s"
+		values="0,0; 5,0; 0,0"
+		begin="indefinite"
+		repeatCount="indefinite"
+	/>
+ -->
+</rect>
+<rect class="cls-2" x="3" y="18"  width="20" height="10" >
+<!-- 
+	<animateTransform
+		id="menu_rect02" 
+		attributeType="XML"
+		attributeName="transform"
+		type="translate"
+		dur="0.5s"
+		values="0,0; 5,0; 0,0"
+		begin="indefinite"
+		repeatCount="indefinite"
+	/>
+ -->
+</rect>
+<rect class="cls-1" x="3" y="33"  width="20" height="10" >
+<!-- 
+	<animateTransform
+		id="menu_rect03" 
+		attributeType="XML"
+		attributeName="transform"
+		type="translate"
+		dur="0.5s"
+		values="0,0; 5,0; 0,0"
+		begin="indefinite"
+		repeatCount="indefinite"
+	/>
+ -->
+</rect>
+</svg>

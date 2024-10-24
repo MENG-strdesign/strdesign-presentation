@@ -13,10 +13,10 @@ export default hopeTheme({
 
   iconAssets: "fontawesome-with-brands",
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  logo: "/assets/image/icon_strdesign.svg",
 
   repo: "vuepress-theme-hope/vuepress-theme-hope",
-
+  repoDisplay :false,
   docsDir: "src",
 
   // 导航栏
@@ -57,9 +57,13 @@ export default hopeTheme({
 
     // 此处开启了很多功能用于演示，你应仅保留用到的功能。
     markdownImage: {
-      figure: true,
-      lazyload: true,
-      size: true,
+        figure: true,
+        // 启用图片懒加载
+        lazyload: true,
+        // 启用图片标记
+        mark: true,
+        // 启用图片大小
+        size: true,
     },
 
     // markdownMath: {

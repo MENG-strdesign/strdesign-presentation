@@ -5,8 +5,8 @@ import theme from "./theme.js";
 export default defineUserConfig({
   base: "/strdesign-presentation/",
 
-  lang: "zh-CN",
-  title: "ストラプレゼン",
+  lang: "ja-JP",
+  title: "",
   description: "ストラプレゼン｜vuepress-theme-hope",
 
   theme,
