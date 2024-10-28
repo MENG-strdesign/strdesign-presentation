@@ -16,13 +16,20 @@ titles:
 
 
 footer: false
+
 ---
 
 ## 自己紹介
 
 这是一个档案主页的案例。
-
-![Alt](/assets/image/intp.png "MBTI診断　INTP-O-C" =500x)
+```component VPCard
+title: 孟　瀚博（モウ　カンハク）
+desc: Where there is light, there is hope
+logo: https://mister-hope.com/logo.svg
+link: https://mister-hope.com
+background: rgba(253, 230, 138, 0.15)
+```
+![Alt](/assets/image/profile/intp.png "MBTI診断　INTP-O-C" =500x)
 
 長所・短所
 INTPは下記の長所を持っています。

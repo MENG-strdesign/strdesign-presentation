@@ -24,7 +24,10 @@ export default hopeTheme({
 
   // 侧边栏
   sidebar,
-
+  fullscreen: true,
+  themeConfig: {
+        fontSize: "16px", // 你想要的全局字体大小
+},
   // 页脚
   footer: "2024/11/08 ストラプレゼン",
   displayFooter: true,
