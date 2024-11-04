@@ -2,7 +2,7 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
 	"/",
-	"/js_history/",
+	"/javascript/",
 	"/demo/",
 	{
 		text: "指南",

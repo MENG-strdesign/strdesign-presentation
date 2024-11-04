@@ -4,7 +4,7 @@ portfolio: true
 title: 自己紹介
 icon: user
 welcome: Welcome my ストラプレゼン 
-name: JavaScriptで変える未来！
+name: JavaScriptの一生は戦争である！
 avatar: https://theme-hope-assets.vuejs.press/hero/conan.png
 
 titles:
@@ -16,6 +16,7 @@ titles:
 
 
 footer: false
+
 
 ---
 
@@ -32,11 +33,11 @@ footer: false
 1997年8月に生まれ、今年27歳です。
 
 ### 趣味
-#### プログラミング＋  
+#### プログラミング＋「」  
 例えば：  
 プログラミング＋「ゲーム」＝攻略サイト  
 プログラミング＋「日記」＝ブログ(Blog)サイト  
-プログラミング＋「仕事」＝日報送信ツール  
+プログラミング＋「業務報告」＝日報自動送信ツール  
 プログラミング＋「テスト」＝自動化テストツール
 
 ### 苦手な事
@@ -64,12 +65,14 @@ footer: false
 </div>
 <div>
 
-![Alt](/assets/image/profile/Shenyang_Location_in_China.png "中国瀋陽市" =500x)
+![Alt](/assets/image/profile/Shenyang_Location_in_China.png "中国遼寧省(オレンジ色) 瀋陽市(赤色)" =500x)
 </div>
 </div>
 
+---
+
 ## 瀋陽市  
-沈陽の総面積は約1,348平方キロメートルで、これは東京都（2,194平方キロメートル）の総面積のおよそ3分の2に相当します。
+瀋陽の総面積は約1,348平方キロメートルで、これは東京都（2,194平方キロメートル）の総面積のおよそ3分の2に相当します。
 
 ![Alt](/assets/image/profile/沈阳浑河大桥天际线.jpg "瀋陽" =600x)
 ![Alt](/assets/image/profile/沈阳经济技术开发区.jpg "瀋陽" =535x)   
@@ -98,10 +101,11 @@ footer: false
 </div>
 </div>
 
+## プレゼン開始　JavaScriptの一生は戦争である！
 ```component VPCard
-title: JavaScriptの歴史
-desc: プレゼン開始
+title: JavaScriptの第一戦　誕生の戦い
+desc: 
 logo: https://github.com/voodootikigod/logo.js/raw/master/js.png
-link: /js_history
+link: /javascript/
 background: rgba(253, 230, 138, 0.15)
 ```

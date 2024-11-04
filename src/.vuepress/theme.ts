@@ -50,7 +50,10 @@ export default hopeTheme({
   // 在这里配置主题提供的插件
   plugins: {
     // 注意: 仅用于测试! 你必须自行生成并在生产环境中使用自己的评论服务
-
+	markdownHint: {
+	        // 启用 GFM 警告
+	        alert: true,
+	      },
     revealjs: {
       plugins: ["highlight", "math", "search", "notes", "zoom"],
     },
@@ -108,7 +111,7 @@ export default hopeTheme({
       vPre: true,
 
       // 在启用之前安装 chart.js
-      // chart: true,
+      chart: true,
 
       // insert component easily
 
