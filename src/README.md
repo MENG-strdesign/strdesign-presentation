@@ -44,13 +44,48 @@ footer: false
 注目が集まる場面  
 名前を付ける  
 
-
 </div>
 <div>
 
 ![Alt](/assets/image/profile/intp.png "MBTI診断　INTP-O-C" =500x)
+
+::: chart 
+
+```json
+{
+  "type": "radar",
+  "data": {
+    "labels": ["睡眠", "ゲーム", "料理", "技術勉強", "外出", "家事", "運動"],
+    "datasets": [
+      {
+        "label": "週末の過ごし方",
+        "data":  [90, 80,65 , 81, 65, 75, 40],
+        "fill": true,
+        "backgroundColor": "rgba(255, 99, 132, 0.2)",
+        "borderColor": "rgb(255, 99, 132)",
+        "pointBackgroundColor": "rgb(255, 99, 132)",
+        "pointBorderColor": "#fff",
+        "pointHoverBackgroundColor": "#fff",
+        "pointHoverBorderColor": "rgb(255, 99, 132)"
+      }
+    ]
+  },
+  "options": {
+    "elements": {
+      "line": {
+        "borderWidth": 3
+      }
+    }
+  }
+}
+```
+
+:::
 </div>
 </div>
+
+
+
 
 <div style="display:flex;">
 <div style="flex:1;">
