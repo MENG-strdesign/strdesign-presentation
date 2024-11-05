@@ -93,14 +93,15 @@ HTML（エイチティーエムエル）に画像やプラグイン（プラグ�
 {
   "type": "pie",
   "data": {
-    "labels": ["Netscape Navigator", "NCSA Mosaic"],
+    "labels": ["Netscape Navigator", "NCSA Mosaic","その他"],
     "datasets": [
       {
         "label": "",
-        "data": [75, 25],
+        "data": [75, 23, 2],
         "backgroundColor": [
           "rgb(255, 99, 132)",
-          "rgb(75, 192, 192)"
+          "rgb(75, 192, 192)",
+          "rgb(255, 205, 86)"
         ]
       }
     ]
@@ -112,15 +113,15 @@ HTML（エイチティーエムエル）に画像やプラグイン（プラグ�
 
 こうして、Netscape Navigatorは1990年代のインターネットを代表するブラウザとなりました。
 
-## プロフィール JavaScriptの設計者
+## プロフィール
 <div style="display:flex;">
 <div style="flex:1">
 
+### Brendan Eich (ブレンダン・アイク)  
 
-### Brendan Eich (ブレンダン・アイク)
-1961年生まれ、アメリカ合衆国のプログラマであり、プログラミング言語・JavaScriptの生みの親である。  
-主にNetscapeとMozillaでの業績で知られている。  
-1995年4月にネットスケープコミュニケーションズに転職し、ウェブブラウザNetscape Navigator用のJavaScriptを開発した（当初はMocha（モカ）と呼ばれ、その後一時的にLiveScriptとされていた）
+1961年生まれ、アメリカ合衆国のプログラマであり、プログラミング言語・**JavaScriptの設計者**。  
+主にNetscapeでの業績で知られている。  
+1995年4月にネットスケープコミュニケーションズに転職し、ウェブブラウザNetscape Navigator用のJavaScriptを開発した。
 
 
 </div>
