@@ -1,17 +1,23 @@
 ---
-title: JavaScriptの第二戦　ブラウザの戦い
-icon: lightbulb
+title: JavaScriptの第二戦 ブラウザの戦い
+icon: rocket
 navbar: false
 sidebar: false
 editLink: false
 lastUpdated: false
 pageInfo: false
-toc: true
+toc: false
 comment: false
-prev: /
-next: /javascript/NodeJS
+prev: /javascript/js-1
+next: /javascript/js-3
+order: 2
 ---
 
+90年代　JavaScriptの実行環境はどこ？  
+
+答えは「ブラウザ」です。  
+
+ブラウザの戦争も、JavaScriptの戦争である！
 <div style="display:flex;">
 <div style="flex:1;">
 
@@ -59,6 +65,19 @@ next: /javascript/NodeJS
 
 :::
 
+::: info 標準化プロセス
+
+標準化プロセスとは、特定の製品、サービス、またはプロセスにおいて、品質、性能、安全性、互換性などの基準を確立し、広く受け入れられる規格を設定する一連の手続きです。  
+このプロセスは、業界全体での一貫性を保ち、製品やサービスの信頼性を向上させることを目的としています。  
+標準化により、異なる企業や団体が共通の基準に従うことで、効率性の向上やコストの削減が期待されます。
+
+1997年、競争で優位に立つために、NetscapeはJavaScriptをECMAScriptとして標準化することを提出しました。  
+その狙いはWeb開発分野での主導的地位を維持し、将来の競争に有利な位置に立つことでした。
+
+:::
+
+**ブラウザ市場の8割以上が支配され、開発言語の標準化という制約も設定された今、  
+本当にこの現状を打破できる挑戦者は現れるのでしょうか？**
 
 
 ## 覇権を挑む　新しい挑戦者　Microsoftの登場
@@ -73,12 +92,16 @@ Microsoft社はNetscape社の製品と対抗するために人員を集め、Nav
 <div>
 
 ![Alt](/assets/image/js-2/Microsoft.jpg " " =200x)
+
 </div>
 </div>
 
+![Alt](/assets/image/js-2/jsvsjscript.jpg "js vs jscript" )
 ![Alt](/assets/image/js-2/1st-browser-war.png "第一次ブラウザ戦争" )
 
 ## 「Netscape Navigator」 VS 「Internet Explorer」
+
+
 
 Microsoft は、「Internet Explorer」 の普及を推進するために、  
 自社の強みを利用し、さまざまな戦略を展開しました。  
@@ -106,7 +129,11 @@ Internet Explorerを無料で提供され、Windowsユーザーが簡単に入�
 <div style="flex:1;">
 
 - **戦略3: 独占技術**  
-Internet Explorer の地位をさらに強化するために、Microsoft は独自の技術を導入しました。  
+Internet Explorerの地位をさらに強化するために、Microsoft は独自の技術を導入しました。  
+**「WindowsOSとの深い統合」  
+「Microsoft　officeとの連携」  
+「ActiveXで財務管理ソフト、データ分析ツールと連動」**  
+など便利な機能が続々開発されました。  
 その結果、多くのウェブサイトは Internet Explorerのみ正常に表示されるようになりました。
 
 </div>
@@ -172,21 +199,32 @@ Netscapeはユーザーを失うこととなりました。**
 
 - **終焉と遺産（2003年以降）**  
 2003年、アメリカオンライン（AOL）はNetscapeブラウザのサポート終了のお知らせを発表し、Netscapeの終焉を意味しました。  
-Netscapeのオープンソースの遺産はMozilla財団の中で発展を続け、最終的には著名なFirefoxブラウザが誕生しました。
+Netscapeのオープンソースの遺産は種子として、Mozilla財団の中で発展を続け、最終的には著名なFirefoxブラウザが誕生しました。
 
 
 ---
 第一次ブラウザ戦争は1990年代後半から2000年代初頭にかけて徐々に終焉を迎えました。  
 **Internet Explorerが主導ブラウザとなり、Netscapeは徐々に市場から姿を消していきました。**  
-Netscapeはオープンソースプロジェクトに遺産を残しました（MozillaプロジェクトやFirefoxブラウザなど）が、市場のリーダーとしての時代は終わりを迎えました。
+Netscapeは市場のリーダーとしての時代は終わりを迎えました。
 
-::: info 標準化プロセス
 
-標準化プロセスとは、特定の製品、サービス、またはプロセスにおいて、品質、性能、安全性、互換性などの基準を確立し、広く受け入れられる規格を設定する一連の手続きです。  
-このプロセスは、業界全体での一貫性を保ち、製品やサービスの信頼性を向上させることを目的としています。  
-標準化により、異なる企業や団体が共通の基準に従うことで、効率性の向上やコストの削減が期待されます。
 
-1997年、競争で優位に立つために、NetscapeはJavaScriptをECMAScriptとして標準化することを提出しました。  
-その狙いはWeb開発分野での主導的地位を維持し、Microsoftとの競争に有利な位置に立つことでした。
+::: info Firefox
+**2004年11月 正式に登場**  
+Firefox 1.0は速度、安定性、安全性に優れ、ユーザーの支持を迅速に得て、当時の主流ブラウザであったInternet Explorerの強力な競争相手となりました。  
 
+**急成長と市場シェアの拡大 (2005-2010年)**  
+Firefox 1.0のリリース以降、Firefoxは改良を重ね、タブ機能、ブックマーク管理、安全性の強化などの新しい機能を追加した複数のバージョンをリリースしました。  
+Internet Explorerの市場シェアが徐々に減少する中、Firefoxは世界で最も人気のあるブラウザの1つとなりました。  
+
+**Firefoxは登場以来、インターネットブラウザ市場において革新を続け、ユーザーの信頼を得てきました。**
+![Alt](/assets/image/js-2/firefox.png " " )
 :::
+
+
+## 一人の強者が倒れ、さらに多くの強者が立ち上がる。
+
+![Alt](/assets/image/js-2/2nd-browser.png " " )
+
+### ブラウザの世界での戦争はまだ続いている
+

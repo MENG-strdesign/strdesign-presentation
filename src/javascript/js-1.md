@@ -1,6 +1,6 @@
 ---
-title: JavaScriptの第一戦　誕生の戦い
-icon: lightbulb
+title: JavaScriptの第一戦 誕生の戦い
+icon: rocket
 navbar: false
 sidebar: false
 editLink: false
@@ -10,6 +10,7 @@ toc: true
 comment: false
 prev: /
 next: /javascript/js-2
+order: 1
 ---
 
 ## 最初に流行したウェブブラウザ　NCSA Mosaic（モザイク）
@@ -60,7 +61,7 @@ HTML（エイチティーエムエル）に画像やプラグイン（プラグ�
 
 ![Alt](/assets/image/javascript/会议室.png " " =550x)
 
-## 時間との戦い JavaScript原型の誕生
+## 時間との勝負 JavaScript原型の誕生
 <div style="display:flex;">
 <div style="flex:1;">
 
@@ -131,6 +132,13 @@ HTML（エイチティーエムエル）に画像やプラグイン（プラグ�
 </div>
 </div>
 
+
+::: important デビュー戦の戦果
+
+## JavaScriptはウェブ開発の専用言語として世界中にひろまり、  
+## 今日では多くの企業や開発者によって広く使用されています。
+
+:::
 
 
 

@@ -1,6 +1,6 @@
 ---
-title: JavaScriptエンジン-V8
-icon: lightbulb
+title: JavaScriptの第三戦 性能の戦い
+icon: rocket
 navbar: false
 sidebar: false
 editLink: false
@@ -8,8 +8,9 @@ lastUpdated: false
 pageInfo: false
 toc: true
 comment: false
-prev: /
-next: /javascript/NodeJS
+prev: /javascript/js-2
+next: /javascript/js-4
+order: 4
 ---
 
 

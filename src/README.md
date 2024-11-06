@@ -67,6 +67,17 @@ footer: false
         "pointBorderColor": "#fff",
         "pointHoverBackgroundColor": "#fff",
         "pointHoverBorderColor": "rgb(255, 99, 132)"
+      },
+      {
+        "label": "",
+        "data":  [10, 10,10,10,10,10,10],
+        "fill": true,
+        "backgroundColor": "rgba(255, 99, 132, 0)",
+        "borderColor": "rgb(255, 99, 132,0)",
+        "pointBackgroundColor": "rgb(255, 99, 132,0)",
+        "pointBorderColor": "#fff",
+        "pointHoverBackgroundColor": "#fff",
+        "pointHoverBorderColor": "rgb(255, 99, 132,0)"
       }
     ]
   },
@@ -141,6 +152,6 @@ footer: false
 title: JavaScriptの第一戦　誕生の戦い
 desc: 
 logo: https://github.com/voodootikigod/logo.js/raw/master/js.png
-link: /javascript/
+link: /javascript/js-1
 background: rgba(253, 230, 138, 0.15)
 ```
