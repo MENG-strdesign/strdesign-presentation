@@ -6,7 +6,7 @@ sidebar: false
 editLink: false
 lastUpdated: false
 pageInfo: false
-toc: true
+toc: false
 comment: false
 prev: /
 next: /javascript/js-2
@@ -133,10 +133,10 @@ HTML（エイチティーエムエル）に画像やプラグイン（プラグ�
 </div>
 
 
-::: important デビュー戦の戦果
+::: important 戦果
 
-## JavaScriptはウェブ開発の専用言語として世界中にひろまり、  
-## 今日では多くの企業や開発者によって広く使用されています。
+### JavaScriptはウェブ開発の専用言語として世界中にひろまり、  
+### 今日では多くの企業や開発者によって広く使用されています。
 
 :::
 
