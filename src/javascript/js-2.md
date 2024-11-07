@@ -1,5 +1,5 @@
 ---
-title: JavaScriptの第二戦 ブラウザの戦い
+title: 第二戦 ブラウザの戦い
 icon: rocket
 navbar: false
 sidebar: false

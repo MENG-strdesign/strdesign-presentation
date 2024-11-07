@@ -1,5 +1,5 @@
 ---
-title: JavaScriptの第一戦 誕生の戦い
+title: 第一戦 誕生の戦い
 icon: rocket
 navbar: false
 sidebar: false
@@ -120,9 +120,11 @@ HTML（エイチティーエムエル）に画像やプラグイン（プラグ�
 
 ### Brendan Eich (ブレンダン・アイク)  
 
-1961年生まれ、アメリカ合衆国のプログラマであり、プログラミング言語・**JavaScriptの設計者**。  
+1961年生まれ、アメリカ合衆国のプログラマ  
+プログラミング言語: **JavaScriptの設計者**。  
 主にNetscapeでの業績で知られている。  
-1995年4月にネットスケープコミュニケーションズに転職し、ウェブブラウザNetscape Navigator用のJavaScriptを開発した。
+1995年4月 Netscapeに転職し、  
+ウェブブラウザNetscape Navigator用のJavaScriptを開発した。
 
 
 </div>
@@ -136,7 +138,7 @@ HTML（エイチティーエムエル）に画像やプラグイン（プラグ�
 ::: important 戦果
 
 ### JavaScriptはウェブ開発の専用言語として世界中にひろまり、  
-### 今日では多くの企業や開発者によって広く使用されています。
+### 多くの企業や開発者によって広く使用されています。
 
 :::
 

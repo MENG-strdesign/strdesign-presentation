@@ -1,15 +1,15 @@
 ---
-title: JavaScriptの第三戦 性能の戦い
+title: 第四戦 SPA frameworksの戦い
 icon: rocket
 navbar: false
 sidebar: false
 editLink: false
 lastUpdated: false
 pageInfo: false
-toc: true
+toc: false
 comment: false
-prev: /javascript/js-2
-next: /javascript/js-4
+prev: /javascript/js-3
+next: /javascript/js-5
 order: 4
 ---
 
@@ -18,57 +18,53 @@ order: 4
 <div style="display:flex;">
 <div style="flex:1;">
  
-V8（ヴィエイト）は、2008年Googleが開発するオープンソースのJavaScriptエンジンです。  
-この名称は、当時最高のパフォーマンスを持つV型8気筒エンジン（略称「V8」）に由来しています。  
-同様に、「V8 JavaScriptエンジン」も、JavaScriptエンジンとして優れた性能を発揮することを目的に名付けられました。
+
+SPAの登場により、フロントエンド技術は単なる静的なページ表示から、より複雑なクライアントサイドのロジックを処理する方向へ進化しました。  
+この変化によって、フロントエンドのフレームワークやライブラリが急速に発展し、開発者はより効率的にアプリケーションを作れるようになりました。
+
+
 </div>
 <div>
 
-![Alt](/assets/image/nodejs/v8.jpg "V型8気筒エンジン" =200x)
+![Alt](/assets/image/js-4/spa.jpg "Single Page Application" =300x)
+
 </div>
 </div>
 
-## V8エンジンの誕生とウェブ開発の変革
-V8 (JavaScriptエンジン)の誕生は、ウェブ開発において非常に重要な意義を持ち、いくつかの重要な変化と影響をもたらしました。  
-具体的には：
+AngularJS（2010年）、React（2013年）、Vue.js（2014年）などのSPAフレームワークが登場し、  
+これらはより効率的なコンポーネントベースの開発方法を提供し、フロントエンド開発の能力強化とともに、フロントエンド開発の世界を変えました。
+
+![Alt](/assets/image/js-4/spafrm.png "Single Page Application" =100%x)
+
+## 最初のSPAフレームワーク
 
 <div style="display:flex;">
 <div style="flex:1;">
 
-- **JavaScriptの実行速度の飛躍（ひやく）的な向上**  
-
-V8は、Googleによって開発され、従来のJavaScriptエンジンより**圧倒的に速い実行速度**を提供しました。これにより、JavaScriptを使用した**大規模なアプリケーションの構築が可能**になり、ウェブアプリのパフォーマンスも大幅に向上しました。
+### AngularJS
+「AngularJS」は2010年Googleに開発され、主にシングルページアプリケーション（SPA）を作るためのフレームワークです。  
 </div>
 <div>
 
-![Alt](/assets/image/nodejs/up.jpg " " =200x)
+![Alt](/assets/image/js-4/AngularJS.png " " =200x)
 </div>
 </div>
 
-- **シングルページアプリケーション（SPA）の普及（ふきゅう）**  
+### AngularJSの主な特徴
 
-V8の高速化によって、JavaScriptを使用したリアルタイムなインタラクションやシームレスな画面遷移が実現し、シングルページアプリケーションが急速に普及しました。これにより、より快適なユーザー体験が提供されるようになりました。
+- **双方向データバインディング（Two-way Data Binding）**  
 
-- **Node.jsの誕生とサーバーサイドJavaScriptの実現**  
+AngularJSは、双方向データバインディングを提供します。  
+これにより、ビュー(View)とモデル(model)は常に同期され、モデルのデータが変更されるとビューが自動的に更新され、  
+逆にビューでのユーザー入力もモデルに反映されます。  
+この仕組みによって、開発者はデータの同期を手動で行う必要がなくなります。  
 
-V8エンジンはNode.jsの基盤にもなり、JavaScriptがサーバーサイドで動作することを可能にしました。これにより、フロントエンドとバックエンドの両方でJavaScriptを使用できるようになり、開発プロセスの効率化が進みました。
+![Alt](/assets/image/js-4/data_binding_two_way.png " " =100%x)
 
-- JavaScriptエコシステムの拡大
-V8はJavaScriptの性能向上と共に、フロントエンド開発の標準言語としての地位を確立する役割を果たしました。これにより、多くのライブラリやフレームワーク（例えば、ReactやVue.js）が誕生し、JavaScriptのエコシステムが急速に拡大しました。
 
-V8の登場は、JavaScriptが単なるブラウザ内のスクリプト言語から、フルスタック開発に活用される強力な言語へと進化するきっかけとなったのです。
-<!-- more -->
+- **モジュール化（Modularization）**  
 
-本页面就是一个示例，禁用了如下功能:
+AngularJSは、アプリケーションを複数のモジュールに分割して開発することをサポートします。  
+これにより、テストやデバッグが容易になり、各モジュールは特定の機能を担当し、コードの保守性や再利用性が向上します。
 
-- 导航栏
-- 侧边栏
-- 路径导航
-- 页面信息
-- 贡献者
-- 编辑此页链接
-- 更新时间
-- 上一篇/下一篇 链接
-- 评论
-- 页脚
-- 返回顶部按钮
+

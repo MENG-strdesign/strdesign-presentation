@@ -81,7 +81,7 @@ export default hopeTheme({
 
     // 此功能被开启用于演示，你应仅当使用时保留。
     markdownTab: true,
-
+    search: true,
     // 此处开启了很多功能用于演示，你应仅保留用到的功能。
     mdEnhance: {
       align: true,
@@ -135,7 +135,7 @@ export default hopeTheme({
       // vuePlayground: true,
 
       // install sandpack-vue3 before enabling it
-      // sandpack: true,
+      sandpack: true,
     },
 
     // 如果你需要 PWA。安装 @vuepress/plugin-pwa 并取消下方注释

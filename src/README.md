@@ -8,11 +8,12 @@ name: JavaScriptの一生は戦争である！
 avatar: https://theme-hope-assets.vuejs.press/hero/conan.png
 
 titles:
-  - JavaScriptで最初に作るべきアプリは何？
+  - JavaScriptの致命的な弱点？
   - jQueryとVue＆Reactの違いは？
   - SPAシングルページアプリとは？
   - 仮想DOMとは何？
-  - JavaScriptを使って自動化できる日常作業って何？
+  - JavaScriptはわずか10日間で開発された？
+  - JavaScriptとjavaの関係は？
 
 
 footer: false
