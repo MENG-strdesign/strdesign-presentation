@@ -1,5 +1,5 @@
 ---
-title: 第四戦 SPA frameworksの戦い
+title: 第六戦 自分自身との戦い
 icon: rocket
 navbar: false
 sidebar: false
@@ -8,12 +8,12 @@ lastUpdated: false
 pageInfo: false
 toc: false
 comment: false
-prev: /javascript/js-3
-next: /javascript/js-5
-order: 4
+prev: /javascript/js-5
+next: /javascript/final
+order: 6
 ---
 
-
+![Alt](/assets/image/js-6/what_is_the_javascript.png " " =100%x)
 
 <div style="display:flex;">
 <div style="flex:1;">
@@ -26,7 +26,7 @@ SPAの登場により、フロントエンド技術は単なる静的なペー�
 </div>
 <div>
 
-![Alt](/assets/image/js-4/spa.jpg "Single Page Application" =300x)
+![Alt](/assets/image/js-6/全能.jpg " " =200x)
 
 </div>
 </div>

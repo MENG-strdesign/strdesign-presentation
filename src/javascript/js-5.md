@@ -1,5 +1,5 @@
 ---
-title: 第四戦 SPA frameworksの戦い
+title: 第五戦 クロスプラットフォームの戦い
 icon: rocket
 navbar: false
 sidebar: false
@@ -8,25 +8,32 @@ lastUpdated: false
 pageInfo: false
 toc: false
 comment: false
-prev: /javascript/js-3
-next: /javascript/js-5
-order: 4
+prev: /javascript/js-4
+next: /javascript/js-6
+order: 5
 ---
 
+:::tip 「クロスプラットフォーム」（cross-platform）
+クロスプラットフォームとは、同じアプリケーションやシステムが複数の異なるプラットフォーム（Windows、macOS、Linux、iOS、Androidなど）で動作できることです。  
+クロスプラットフォーム対応により、異なるデバイスやOS環境で同じコードを使えるため、開発効率が向上し、コスト削減（さくげん）にもつながります。  
+:::
 
+🤔現在JavaScriptの動作環境は**Webブラウザ**と**サーバーサイド**になりますが、  
+他にも例えば**モバイルアプリ**や**デスクトップアプリ**にも開発可能でしょうか？
 
+- 正解は　**可能です！**
 <div style="display:flex;">
 <div style="flex:1;">
  
 
-SPAの登場により、フロントエンド技術は単なる静的なページ表示から、より複雑なクライアントサイドのロジックを処理する方向へ進化しました。  
-この変化によって、フロントエンドのフレームワークやライブラリが急速に発展し、開発者はより効率的にアプリケーションを作れるようになりました。
+UniAppは、JavaScriptを使ってクロスプラットフォームのアプリケーションを開発できるオープンソースのフレームワークです。  
+Vue.jsをベースにしており、1つのコードベースでiOS、Android、Web、ミニプログラム（wechat、alipay、baiduなど）、複数の実行環境に対応したアプリを構築できます。
 
 
 </div>
 <div>
 
-![Alt](/assets/image/js-4/spa.jpg "Single Page Application" =300x)
+![Alt](/assets/image/js-5/uniapp.jpg " " =200x)
 
 </div>
 </div>
