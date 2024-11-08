@@ -251,6 +251,41 @@ const msg = ref("Hello Playground!");
 
 :::
 
+- **AngularJSより使えやすいディレクティブ（指令）**  
+これらのディレクティブにより、テンプレート内で要素の表示・非表示、レンダリング、更新を柔軟に制御できる。  
+VueJSの動的なレンダリング機能が強化され、リアクティブなユーザーインターフェースを構築しやすくなります。
+
+::: sandpack#vue Vue.js ディレクティブ（指令）例「v-for」
+
+@file /src/App.vue
+
+```vue
+<script setup>
+import { ref } from "vue";
+
+const items = [
+    { name: 'Item 1' },
+    { name: 'Item 2' },
+    { name: 'Item 3' }
+    ];
+
+</script>
+
+<template>
+  <div>
+    <ul>
+      <li v-for="(item, index) in items"
+       :key="index">
+        {{ item.name }}
+      </li>
+    </ul>
+  </div>
+  
+</template>
+```
+
+:::
+
 - **Reactの強みを吸収　仮想 DOM（Virtual DOM）技術**  
 Vueの仮想 DOM は、リアクティブシステムと組み合わせて効率的な更新を実現しています。  
 データが変更されると、Vue はそのデータに依存しているコンポーネントを自動的に追跡し、再描画が必要なコンポーネントのみを更新します。  

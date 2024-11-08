@@ -156,7 +156,8 @@ Vue.js
 
 <!-- .slide: data-transition="slide" data-auto-animate -->
 
-## 第五戦 クロスプラットフォームの戦い
+
+## 第五戦 自分自身との戦い
 
 <!-- .element: class="r-fit-text" -->
 
@@ -164,23 +165,24 @@ Vue.js
 
 <!-- .slide: data-transition="slide" data-auto-animate -->
 
-## 第五戦 クロスプラットフォームの戦い
+## 第五戦 自分自身との戦い
 
 <!-- .element: class="r-fit-text" -->
 
-モバイルアプリ開発：UniApp、React Native、NativeScript など
+### JavaScriptの特性＆弱点
 
 <!-- .element: class="fragment fade-in" -->
 
-デスクトップアプリ開発：Electron(エレクトロン)
+### TypeScriptの誕生＆応用
 
 <!-- .element: class="fragment fade-in" -->
+
 
 ---
 
 <!-- .slide: data-transition="slide" data-auto-animate -->
 
-## 第六戦 自分自身との戦い
+## 現代的なJavaScript開発手法
 
 <!-- .element: class="r-fit-text" -->
 
@@ -188,21 +190,17 @@ Vue.js
 
 <!-- .slide: data-transition="slide" data-auto-animate -->
 
-## 第六戦 自分自身との戦い
+## 現代的なJavaScript開発手法
 
 <!-- .element: class="r-fit-text" -->
 
-### JavaScriptの特性
+NextJS　と　NuxtJS
 
 <!-- .element: class="fragment fade-in" -->
-
-### TypeScriptの応用
-
-<!-- .element: class="fragment fade-in" -->
-
 
 ---
 
+<!-- .slide: data-transition="slide" data-auto-animate -->
 <!-- .element: class="r-fit-text" -->
 
 ## The End
